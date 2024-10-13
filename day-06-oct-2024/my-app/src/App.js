@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Greeting from './components/Greeting';
 import DefaultComponent, { FirstComponent, SecondComponent } from './components/MyComponents';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   return (
@@ -11,9 +12,11 @@ function App() {
       <Welcome name = "Gorakh"/> */}
       {/* <Greeting name='Gorakh'/>
       <Greeting name='Ramesh'/> */}
-      <FirstComponent/>
+      {/* <FirstComponent/>
       <SecondComponent/>
-      <DefaultComponent/>
+      <DefaultComponent/> */}
+
+      <HelloWorld/>
 
       
     </div>
