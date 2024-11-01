@@ -25,10 +25,10 @@ function App() {
       <DefaultComponent/> */}
 
       {/* <HelloWorld/> */}
-      <Student
-        data = {skills}
-      />
       {/* <Student
+        data = {skills}
+      /> */}
+      <Student
        firstName = "Gorakh"
        lastName = "Gupta"
        email = "gorakh@gmail.com"
@@ -37,7 +37,7 @@ function App() {
        firstName = "Umesh"
        lastName = "Rao"
        email = "umesh@gmail.com"
-      /> */}
+      />
 
       
     </div>
