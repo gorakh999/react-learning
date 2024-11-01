@@ -5,6 +5,7 @@ import Greeting from './components/Greeting';
 import DefaultComponent, { FirstComponent, SecondComponent } from './components/MyComponents';
 import HelloWorld from './components/HelloWorld';
 import Student from './components/Student';
+import Employee from './components/Employee';
 
 function App() {
   // const student = {
@@ -28,16 +29,18 @@ function App() {
       {/* <Student
         data = {skills}
       /> */}
-      <Student
+      {/* <Student
        firstName = "Gorakh"
        lastName = "Gupta"
        email = "gorakh@gmail.com"
-      />
-      <Student
+      /> */}
+      {/* <Student
        firstName = "Umesh"
        lastName = "Rao"
        email = "umesh@gmail.com"
-      />
+      /> */}
+
+      <Employee/>
 
       
     </div>
