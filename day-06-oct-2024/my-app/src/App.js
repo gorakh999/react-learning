@@ -6,6 +6,7 @@ import DefaultComponent, { FirstComponent, SecondComponent } from './components/
 import HelloWorld from './components/HelloWorld';
 import Student from './components/Student';
 import Employee from './components/Employee';
+import User from './components/User';
 
 function App() {
   // const student = {
@@ -40,7 +41,8 @@ function App() {
        email = "umesh@gmail.com"
       /> */}
 
-      <Employee/>
+      {/* <Employee/> */}
+      <User/>
 
       
     </div>
